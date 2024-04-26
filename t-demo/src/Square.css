@@ -1,0 +1,33 @@
+.square {
+    height: 80px;
+    width: 80px;
+    font-size: 5em;
+    margin: auto;
+    position: relative;
+    background-color: #fff; 
+    color: #048104; 
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease; 
+    border-radius: 5px; 
+}
+
+.square:hover {
+    background-color: #000; 
+    color: #fff; 
+}
+
+.square:active {
+    background-color: #4CAF50; 
+    color: #fff; 
+}
+
+.square-value {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
